@@ -52,5 +52,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov-console',       '>= 0.4.2'
   spec.add_development_dependency 'sqlite3',                 '>= 1.3.13'
 
-  spec.required_ruby_version = '>= 2.7'
+  spec.required_ruby_version = '>= 2.2'
 end
