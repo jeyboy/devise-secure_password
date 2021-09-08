@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'devise', '>= 4.0.0', '< 5.0.0'
-  spec.add_runtime_dependency 'railties', '>= 5.0.0', '< 7.0.0'
+  spec.add_runtime_dependency 'railties', '< 7.0.0'
 
   spec.add_development_dependency 'bundler',                 '>= 2.2.14'
   spec.add_development_dependency 'capybara',                '>= 3.35.3'
@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'devise',                  '~> 4.0'
   spec.add_development_dependency 'flay',                    '>= 2.10.0'
   spec.add_development_dependency 'launchy',                 '>= 2.4.3'
-  spec.add_development_dependency 'rails',                   '>= 5.2.0'
+  spec.add_development_dependency 'rails',                   '< 6'
   spec.add_development_dependency 'rake',                    '>= 12.3'
   spec.add_development_dependency 'rspec',                   '>= 3.7'
   spec.add_development_dependency 'rspec_junit_formatter',   '>= 0.3'
